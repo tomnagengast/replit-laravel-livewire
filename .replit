@@ -1,0 +1,8 @@
+run = "cd web && php artisan serve --host 0.0.0.0 --port 80"
+
+[nix]
+channel = "unstable"
+
+[[ports]]
+localPort = 5173
+externalPort = 5173
